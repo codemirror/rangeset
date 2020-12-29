@@ -10,7 +10,10 @@
     "newLine": "lf",
     "declaration": true,
     "declarationMap": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "paths": {
+      "@codemirror/rangeset": ["./src/rangeset.ts"]
+    }
   },
   "include": ["src/*.ts", "test/*.ts"]
 }
