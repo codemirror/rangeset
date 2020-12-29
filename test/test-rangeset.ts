@@ -1,5 +1,5 @@
-import {Range, RangeSet, RangeValue, RangeComparator, SpanIterator} from "@codemirror/next/rangeset"
-import {ChangeSet} from "@codemirror/next/state"
+import {Range, RangeSet, RangeValue, RangeComparator, SpanIterator} from "@codemirror/rangeset"
+import {ChangeSet} from "@codemirror/state"
 import ist from "ist"
 
 class Value extends RangeValue {
