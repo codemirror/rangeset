@@ -315,6 +315,15 @@ describe("RangeSet", () => {
       }, 0)
       ist(ranges.join(), "0,20,20,30")
     })
+
+    it("omits points that are covered by the previous point", () => {
+      let points = 0
+      RangeSet.spans([mkSet([mk(0, 4, {point: true}), mk(1, 5, {name: "a"}), mk(2, 4, {point: true})])], 0, 10, {
+        span() {},
+        point() { points++ }
+      })
+      ist(points, 1)
+    })
   })
 
   describe("iter", () => {
