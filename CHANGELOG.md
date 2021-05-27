@@ -1,3 +1,9 @@
+## 0.18.2 (2021-05-27)
+
+### Bug fixes
+
+Adjust the logic for tracking open ranges to agree with the change in how precedence is handled in the view package.
+
 ## 0.18.1 (2021-04-30)
 
 ### Bug fixes
