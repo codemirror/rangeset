@@ -1,3 +1,9 @@
+## 0.18.3 (2021-06-03)
+
+### New features
+
+The new static `RangeSet.eq` method can be used to efficiently check whether two groups of change sets differ in a given range.
+
 ## 0.18.2 (2021-05-27)
 
 ### Bug fixes
