@@ -1,3 +1,9 @@
+## 0.18.4 (2021-06-29)
+
+### Bug fixes
+
+Fix an issue that caused `RangeSet.between` to incorrectly ignore ranges entirely at the start of the iterated region.
+
 ## 0.18.3 (2021-06-03)
 
 ### New features
