@@ -357,5 +357,11 @@ describe("RangeSet", () => {
       })
       ist(found, 103)
     })
+
+    it("returns ranges in a zero-length set", () => {
+      let set = RangeSet.of([mk(0, 0)]), found: number[] = []
+      set.between(0, 0, (from, to) => { found.push(from, to) })
+      ist(found.toString(), "0,0")
+    })
   })
 })
