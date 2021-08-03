@@ -1,3 +1,9 @@
+## 0.18.5 (2021-08-03)
+
+### Bug fixes
+
+Fix a problem in rangeset comparison that caused changes in the covering of point decorations by other decorations to be missed.
+
 ## 0.18.4 (2021-06-29)
 
 ### Bug fixes
