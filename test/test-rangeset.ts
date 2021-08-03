@@ -250,6 +250,15 @@ describe("RangeSet", () => {
         filter: (from: number) => from % 50 > 0
       }, [50, 51, 100, 103, 150, 153])
     })
+
+    it("reports point decorations with different cover", () => {
+      test([
+        mk(0, 4, {startSide: 1, endSide: -1}),
+        mk(1, 3, {point: true, startSide: -1, endSide: 1})
+      ], {
+        changes: [[2, 4, 0]]
+      }, [1, 2])
+    })
   })
 
   describe("spans", () => {
