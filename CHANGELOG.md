@@ -1,3 +1,9 @@
+## 0.19.1 (2021-08-20)
+
+### Bug fixes
+
+Fix a bug in range set iteration that would sometimes cause ranges to report their position as NaN, breaking downstream code.
+
 ## 0.19.0 (2021-08-11)
 
 ### Breaking changes
