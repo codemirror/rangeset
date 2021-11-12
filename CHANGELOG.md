@@ -1,3 +1,11 @@
+## 0.19.2 (2021-11-12)
+
+### Bug fixes
+
+Fix a bug in `RangeSet.compare` that would cause it miss changes when range sets were identical but the content under them moved.
+
+Fix an issue where `RangeSet.eq` would consider rangesets equal even if they had a differing point range at the end of the compared range.
+
 ## 0.19.1 (2021-08-20)
 
 ### Bug fixes
