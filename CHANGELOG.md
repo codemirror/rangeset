@@ -1,3 +1,9 @@
+## 0.19.3 (2021-12-14)
+
+### Bug fixes
+
+Fix an issue in `RangeSet.compare` where the interaction between spans and points sometimes caused points that had their wrapping spans changed to not be reported.
+
 ## 0.19.2 (2021-11-12)
 
 ### Bug fixes
