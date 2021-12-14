@@ -1,3 +1,9 @@
+## 0.19.4 (2021-12-14)
+
+### Bug fixes
+
+Make sure non-empty point ranges at the end of another point range are covered by the bigger range.
+
 ## 0.19.3 (2021-12-14)
 
 ### Bug fixes
