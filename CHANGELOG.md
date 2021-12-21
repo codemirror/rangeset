@@ -1,3 +1,9 @@
+## 0.19.5 (2021-12-21)
+
+### New features
+
+`RangeSet.spans` now allows the iterator to have a `filterPoint` method, which can determine which point ranges are ignored.
+
 ## 0.19.4 (2021-12-14)
 
 ### Bug fixes
