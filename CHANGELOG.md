@@ -1,3 +1,11 @@
+## 0.19.6 (2022-01-05)
+
+### Bug fixes
+
+Fix an issue where range sets that weren't mapped could cause `RangeSet.compare` to miss changes.
+
+Fix a bug where a zero-length range, even when inclusive, was never mapped to cover any content.
+
 ## 0.19.5 (2021-12-21)
 
 ### New features
