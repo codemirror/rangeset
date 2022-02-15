@@ -1,3 +1,9 @@
+## 0.19.7 (2022-02-15)
+
+### Bug fixes
+
+Fix an issue that caused the `sort` option to `RangeSet.update` to have no effect.
+
 ## 0.19.6 (2022-01-05)
 
 ### Bug fixes
