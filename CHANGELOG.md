@@ -1,3 +1,9 @@
+## 0.19.8 (2022-02-19)
+
+### Bug fixes
+
+Fix a bug where mapping a changeset through an empty set of changes would produce a new value.
+
 ## 0.19.7 (2022-02-15)
 
 ### Bug fixes
