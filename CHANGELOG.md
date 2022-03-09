@@ -1,3 +1,9 @@
+## 0.19.9 (2022-03-09)
+
+### Bug fixes
+
+Fix an issue where points that are entirely covered by a point coming before them could be returend by a span iterator when it started directly at the point's position.
+
 ## 0.19.8 (2022-02-19)
 
 ### Bug fixes
